@@ -32,7 +32,7 @@ class TestParkingLot(unittest.TestCase):
         #self.assertEqual(parkingLotObj.companyParked("Google"), Car(10, "Google"))
         print(parkingLotObj.companyParked("Google"))
 
-
+        
     def test_all(self):
         parkingLotObj = ParkingLot(3, 10)
         # Atleast 1 parking spot for car.
