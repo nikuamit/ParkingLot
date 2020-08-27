@@ -51,8 +51,6 @@ class Bus(Vehicle):
         Vehicle.__init__(self, licensePlate, companyName, VehicleType.BUS)
 
 
-# -----------------------------------------------------
-
 class Slots:
     def __init__(self, lane, spotNumber, type_of_vehicle):
         # self.level = level
@@ -78,8 +76,6 @@ class Slots:
     def getVehicle(self):
         return self.vehicle
 
-
-# ------------------------------------------------------
 
 '''Level class - Each level is an independent entity with a floor number, its lanes and the slots within it. 
 The number of lanes are designed based on the number of slots. 10 slots make one lane'''
@@ -127,7 +123,6 @@ class Levels:
         return all_vehicles
 
 
-# ----------------------------------------------------------------
 # A parking lot is made up of 'n' number of levels/floors and 'm' number of slots per floor.
 class ParkingLot:
     def __init__(self, no_of_floor, no_of_slot):
